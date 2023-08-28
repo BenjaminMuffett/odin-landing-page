@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.Header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+
+.Container-1 {
+    background-color: #1f2937;
+    display: flex;
+}

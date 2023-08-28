@@ -39,10 +39,32 @@ a {
 .Container-1 {
     background-color: #1f2937;
     display: flex;
+    align-items: center;
+}
+
+.text-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-box h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    padding: 0px;
+    margin: 0px;
+}
+
+.text-box p {
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
 }
 
 
 
 .Container-1 img {
     width: 600px;
+    flex: 1;
 }

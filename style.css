@@ -40,7 +40,7 @@ a {
 .Container-1 {
     background-color: #1f2937;
     display: flex;
-    padding: 20px 40px;
+    padding: 40px;
     align-items: center;
     justify-content: space-between;
 }
@@ -89,19 +89,20 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #f9faf8
+    background-color: #f9faf8;
+    padding: 40px;
 }
 
 .information {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    padding-bottom: 32px;
 }
 
 .box-holder {
     display: flex;
     gap: 32px;
-
 }
 
 .img-box {
@@ -130,21 +131,83 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 40px;
 }
 
 .Quote-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 600px;
+    gap: 8px;
 }
 
 .Quote {
     font-size: 36px;
     color: #1f2937;
-    font-style: italic;
     font-weight: 100;
+    font-style: italic;
     text-align: start;
 }
 .contributed {
     text-align: end;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.Container-4 {
+    display: flex;
+    background-color: #f9faf8;
+    justify-content: center;
+    padding: 40px;
+}
+
+.call-box {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px 32px;
+    border-radius: 12px;
+    border: #3882f6;
+    display: flex;
+    margin: 0 auto;
+    padding: 32px 64px;
+    gap: 32px;
+    min-width: 800px;
+}
+
+.call-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.sign-up2, .bottom {
+    border: 2px solid #f9faf8;
+    margin-left: auto;
+}
+
+.action-1, .action-2 {
+    margin: 0;
+    padding: 0;
+}
+
+.action-2 {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.Footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 32px;
 }

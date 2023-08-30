@@ -8,10 +8,16 @@ body {
 
 .Header {
     background-color: #1f2937;
+    padding: 16px 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-inner {
     display: flex;
     align-items: center;
+    width: 1080px;
     justify-content: space-between;
-    padding: 16px 40px;
 }
 
 .header-left {

@@ -105,13 +105,15 @@ a {
     justify-content: center;
     background-color: #f9faf8;
     padding: 40px;
+    max-width: 1080px;
+    margin-bottom: 80px;
 }
 
 .information {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
-    padding-bottom: 32px;
+    padding-bottom: 40px;
 }
 
 .box-holder {
@@ -145,7 +147,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px;
+    padding: 80px;
 }
 
 .Quote-box {
@@ -174,7 +176,9 @@ a {
     display: flex;
     background-color: #f9faf8;
     justify-content: center;
+    align-items: center;
     padding: 40px;
+    margin: 40px 80px;
 }
 
 .call-box {
@@ -190,7 +194,7 @@ a {
     margin: 0 auto;
     padding: 32px 64px;
     gap: 32px;
-    min-width: 800px;
+    flex: 1;
 }
 
 .call-text {
@@ -198,6 +202,7 @@ a {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    gap: 4px;
 }
 
 .sign-up2, .bottom {

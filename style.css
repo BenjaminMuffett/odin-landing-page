@@ -43,6 +43,7 @@ a {
     font-size: 18px;
 }
 
+
 .Container-1 {
     background-color: #1f2937;
     display: flex;
@@ -51,11 +52,18 @@ a {
     justify-content: space-between;
 }
 
+.inner-1{
+    max-width: 1080px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
 .text-box {
     display: flex;
     flex-wrap: wrap;
-    width: 600px;
-    justify-content: space-between;
+    justify-content: flex-start;
     gap: 8px;
 }
 
@@ -75,7 +83,7 @@ a {
 }
 
 .ben {
-    max-width: 450px;
+    max-width: 400px;
     flex: auto;
 }
 

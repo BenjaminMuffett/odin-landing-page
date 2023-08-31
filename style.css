@@ -49,7 +49,7 @@ a {
     display: flex;
     padding: 40px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .inner-1{
@@ -100,13 +100,19 @@ a {
 
 .Container-2 {
     display: flex;
+    background-color: #f9faf8;
+    padding: 40px;
+    padding-bottom: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-2 {
+    max-width: 1080px;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #f9faf8;
-    padding: 40px;
-    max-width: 1080px;
-    margin-bottom: 80px;
 }
 
 .information {
@@ -184,8 +190,12 @@ a {
     background-color: #f9faf8;
     justify-content: center;
     align-items: center;
-    padding: 40px;
-    margin: 40px 80px;
+    padding: 40px 80px;
+}
+
+.inner-4 {
+    flex: 1;
+    max-width: 1080px;
 }
 
 .call-box {

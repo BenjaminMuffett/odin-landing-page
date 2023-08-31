@@ -142,6 +142,13 @@ a {
     text-align: center;
 }
 
+.gym-img, .coding-img, .japan-img, .philosophy-img {
+    width: 200px;
+    height: 200px;
+    /* object-fit: contain; */
+}
+
+
 .Container-3 {
     background-color: #e5e7eb;
     display: flex;
